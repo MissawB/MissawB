@@ -1,59 +1,100 @@
-# 👋 Hi there! I'm Wassim Bahmani
+<div align="center">
 
-🎓 **Engineering Student at IMT Nord Europe** I'm currently pursuing a general engineering degree with a strong focus on **Data Science & Artificial Intelligence**. I am passionate about solving complex problems, building scalable machine learning pipelines, and leveraging technology to drive innovation.
+# 👋 Hi, I'm Wassim Bahmani
 
----
+**Engineering Student · Data Science & AI · IMT Nord Europe**
 
-## 💻 Skills  
-**Programming Languages:**\
-![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat-square)  
-![Java](https://img.shields.io/badge/-Java-007396?logo=java&logoColor=white&style=flat-square)  
-![SQL](https://img.shields.io/badge/-SQL-4479A1?logo=postgresql&logoColor=white&style=flat-square)  
-![OCaml](https://img.shields.io/badge/-OCaml-EC6813?logo=ocaml&logoColor=white&style=flat-square) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/wassim-bahmani)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:wassim.bahmani@imt-nord-europe.fr)
 
-**Data, AI & Tools:**\
-![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?logo=pytorch&logoColor=white&style=flat-square)
-![Scikit-Learn](https://img.shields.io/badge/-Scikit_Learn-F7931E?logo=scikit-learn&logoColor=white&style=flat-square)
-![Pandas](https://img.shields.io/badge/-Pandas-150458?logo=pandas&logoColor=white&style=flat-square)
-![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=flat-square)  
-![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&style=flat-square)
-
-**Languages:**
-* 🇬🇧 English: B2  
-* 🇩🇪 German: A2  
-* 🇫🇷 French: Native
+</div>
 
 ---
 
-## 🔭 Featured Projects  
+I'm a final-year engineering student at **IMT Nord Europe** specializing in **Data Science & Artificial Intelligence** (CPGE MPSI/MP* background). I'm passionate about building robust ML pipelines, exploring LLM architectures, and turning messy data into actionable insight.
 
-### 🎮 Steam Folksonomy Analysis & Game Mechanics Classification
-* **Tech Stack:** Pandas, Scikit-learn, XGBoost, S-BERT, PyTorch, NetworkX, SQLite
-* **Description:** A comprehensive research project and data pipeline analyzing over 126,000 Steam games. By exploring user-generated tags (folksonomy), I developed a system to extract reliable ludological metadata. The project involves FP-Growth association rules, network analysis for genre affinities, clustering algorithms, and Deep Learning (Sentence-BERT) for deep semantic analysis and diachronic drift measurement.
-
-### 🏃 Multimodal Text-to-Motion Retrieval Challenge
-* **Tech Stack:** PyTorch, Transformers, Contrastive Learning (InfoNCE)
-* **Description:** Developed a joint embedding space to align natural language descriptions with 3D human motion sequences. Focused on modeling complex human-human interactions (e.g., hugging, handshaking). Implemented advanced contrastive learning strategies to optimize cross-modal retrieval, evaluated via $Recall@K$ metrics.
-
-### 🎬 Anime Scenario Archetype Generator
-* **Tech Stack:** Generative AI, NLP
-* **Description:** An AI-powered tool that identifies thematically similar anime and generates an archetypal plot summary applicable to both, exploring thematic intersections and storytelling patterns.
-
-### 📈 Sports Performance Analysis App
-* **Tech Stack:** Python, Kivy
-* **Description:** Created an application to analyze athletes' performances during training sessions in real-time.
----
-
-## 🌟 Interests  
-* 🏃 Sports and fitness  
-* 🌍 Environmental sustainability  
-* 🔭 Technological and AI innovations  
-* 📚 Reading and exploring cultures  
-* 🧮 Mathematics and physics  
+Currently preparing a **Generative AI Engineer internship at IFPI (Malta)** and actively seeking an **alternance starting September 2026** in AI/Data roles.
 
 ---
 
-## 📫 Let's Connect!  
-[![GitHub](https://img.shields.io/badge/-MissawB-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/MissawB)  
-[![LinkedIn](https://img.shields.io/badge/-Wassim%20Bahmani-0077B5?logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/wassim-bahmani-5a0287255/)  
-[![Email](https://img.shields.io/badge/-Email-D14836?logo=gmail&logoColor=white&style=flat-square)](mailto:bahmani.wassim@outlook.fr)
+## 🛠️ Tech Stack
+
+**Languages**
+`Python` `SQL` `Java`
+
+**Data & ML**
+`PyTorch` `Scikit-learn` `XGBoost` `Sentence-Transformers` `LangChain` `Pandas` `NumPy` `mlxtend`
+
+**Data Engineering & Infra**
+`SQLite` `PostgreSQL` `Dagster` `Docker` `Kafka`
+
+**Visualization & Web**
+`Streamlit` `Django` `NetworkX` `Plotly` `Matplotlib`
+
+**Human Languages**
+🇫🇷 French (Native) · 🇬🇧 English (B2)
+
+---
+
+## 🔭 Featured Projects
+
+### 🎮 [Steam Folksonomy Analysis & Game Mechanics Classification](https://github.com/MissawB/Game-Mechanics-Classification-Steam)
+> *Python · Pandas · Scikit-learn · XGBoost · Sentence-BERT · NetworkX · SQLite*
+
+A research-grade data pipeline analyzing **126,000+ Steam games** to transform noisy, user-generated tags (folksonomy) into reliable ludological metadata. The project spans 8 stages: FP-Growth association rules, co-occurrence network analysis (Lift), multi-algorithm clustering (Louvain, OPTICS, K-Medoids), ML classification, and Sentence-BERT for deep semantic analysis and **diachronic drift measurement (PMI)**.
+
+---
+
+### 🏃 [Multimodal Text-to-Motion Retrieval](https://github.com/MissawB/Text-to-Motion)
+> *PyTorch · Transformers · Contrastive Learning (InfoNCE)*
+
+Developed a joint embedding space to align natural language descriptions with 3D human motion sequences, with a focus on complex human-human interactions (hugging, handshaking). Used advanced **contrastive learning strategies** evaluated via Recall@K. **Top 3 result** in a competitive challenge.
+
+---
+
+### 🎬 [Animetix — Advanced AI Platform for Otaku Culture](https://github.com/MissawB/Anime-Archetype-Engine)
+> *Django · LangChain · Gemma 4-31B · Gemini 1.5 · Sentence-Transformers*
+
+An interactive web platform featuring four AI-powered game modes around anime & manga. Highlights include: **cosine similarity-based guessing**, **Chain-of-Thought story archetype generation**, **Undercover Anime** (Explainable AI deduction game), hybrid LLM stack (local Gemma 4 with automatic Gemini fallback), `PydanticOutputParser` for structured JSON outputs, and **RAG** with pre-computed NumPy vectors.
+
+---
+
+### 🎵 [SonicMatch — Music Analytics & Audio Fingerprinting](https://github.com/MissawB/SonicMatch)
+> *Scikit-learn · XGBoost · Conformal Prediction · Streamlit · Librosa*
+
+A dual-purpose platform combining **ML-based genre classification** (with conformal prediction for uncertainty quantification) and a **Shazam-like audio fingerprinting engine** using spectrogram peak analysis. Features a cosine-similarity recommendation engine with adjustable feature weighting.
+
+---
+
+### 📺 [Anime Data Platform](https://github.com/YasserMourabih/anime-data-platform)
+> *Python · PostgreSQL · Dagster · Scikit-learn · Streamlit · AniList GraphQL API*
+
+End-to-end data platform extracting **25,000+ anime** from the AniList API, computing TF-IDF weighted recommendations (70% metadata / 30% synopsis), and serving them via a Streamlit interface. Orchestrated with **Dagster** (weekly scheduling) on a serverless Neon PostgreSQL backend. Includes a Higher or Lower anime score guessing game.
+
+---
+
+### 🐦 [Flappy Bird — Reinforcement Learning with NEAT](https://github.com/MissawB/Flappy_Bird_RL_Project)
+> *Python · NEAT · Pygame*
+
+Trained an AI agent to master Flappy Bird using **NeuroEvolution of Augmenting Topologies (NEAT)**. The genome evolves across generations to maximize survival score. Includes network visualization, genealogy tracking, and a replay mode for the best-performing agent.
+
+---
+
+### 📊 [EPS MultiScore — Sports Performance Analysis App](https://github.com/MissawB/EPS-Innov)
+> *Python · Kivy · JsonStore*
+
+A real-time sports performance data collection app designed for PE teachers and coaches. Features configurable variables, live score tracking, an integrated timer, and automatic `.txt` archiving. Deployed in a school context with a 4th/5th grade volleyball pilot session.
+
+---
+
+## 🌟 Interests
+
+`🏃 Sports & Fitness` · `🌍 Sustainability` · `🤖 LLMs & GenAI` · `📐 Mathematics` · `📚 Cross-cultural reading`
+
+---
+
+<div align="center">
+
+*"Turning noise into signal — whether in data, tags, or tokens."*
+
+</div>
