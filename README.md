@@ -50,7 +50,7 @@ A streamer filming in the street broadcasts things they don't control: a street 
 ---
 
 ### 🩻 [RSNA Knee Abnormality Detection](https://www.kaggle.com/competitions/rsna-knee-abnormality-detection): Kaggle competition
-> *PyTorch · DINOv2 · CoAtNet · attention-MIL · Qwen3.5 · Kaggle kernels (2× T4)*
+> *PyTorch · DINOv2 · CoAtNet · attention-MIL · Qwen3.8 · Kaggle kernels (2× T4)*
 
 Detect 12 findings per knee MRI study, scored by mean AUC.
 
@@ -60,14 +60,15 @@ Detect 12 findings per knee MRI study, scored by mean AUC.
 
 ---
 
-### 🎬 [Animetix](https://github.com/MissawB/Anime-Archetype-Engine): GenAI platform for anime & manga culture
-> *Django · LangChain · Neo4j · pgvector · Sentence-Transformers · GCP (Cloud Run, Cloud SQL) · OpenTelemetry*
-
-Four AI-powered game modes, including a similarity-based guessing game and *Undercover Anime*, an explainable deduction game.
-
-- Hybrid RAG: Matryoshka embeddings, Cross-Encoder reranking and a Neo4j knowledge graph.
-- A semantic router sends each query to a fast model or a reasoning model, with cascade inference and Pydantic-validated structured outputs.
-- Hexagonal architecture on GCP (Cloud Run, Cloud SQL with pgvector, Neo4j Aura), OpenTelemetry tracing and embedding-drift detection with a Kolmogorov–Smirnov test.
+### 🎭 [Animetix](https://github.com/MissawB/Animetix): AI game & discovery platform for anime, manga, movies and games
+> *Django · React / TypeScript · PostgreSQL + pgvector · Neo4j · Ollama · Qwen3.8-27B (QLoRA) · CLIP · GCP Cloud Run (L4 GPU) · OpenTelemetry*
+ 
+Solo research project: 16 game modes, a bilingual (FR/EN) interface, image search, a manga reader and a set of experimental AI labs, built in hexagonal architecture with dependency injection. It ran in production on GCP until October 2026 and now runs locally.
+ 
+- **Agentic RAG:** a semantic router classifies each query, specialized processors gather evidence (vector retrieval, Neo4j graph traversal, web research), a synthesizer writes the answer and a judge rates its faithfulness, all streamed live over Server-Sent Events.
+- **One L4 GPU for everything:** a VRAM lease time-shares a 27B text model (18.4 GB of the card's 24 GB) with vision, diffusion, video and audio models, evicting the least recently used one when the next does not fit. All 12 GPU routes verified end to end on the L4.
+- **An honest fine-tune:** a QLoRA adapter on the 27B, [published on Hugging Face](https://huggingface.co/MissawB/otaku-qwen38-27b-adapter). It improved recall on its synthetic held-out split (0.331 → 0.431) but scored below the base model on an independently written 77-question gold set (0.340 vs 0.471): it learned the *form* of an expert answer, not more knowledge.
+- Games built on real algorithms (Akinetix picks each question by exact expected information gain), image search with CLIP and CCIP encoders over pgvector, an 80% coverage gate in CI and Playwright end-to-end tests.
 
 ---
 
